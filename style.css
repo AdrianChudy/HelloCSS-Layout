@@ -1,0 +1,181 @@
+html {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 20em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    border-radius: 0.5em;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 2em;
+}
+.heading {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 22em;
+    height: 5em;
+    margin-left: 1em; 
+}
+.heading > h1 {
+    font-size: 2em;
+}
+.heading > h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    color: lightgray;
+    position: relative;
+    bottom: 0.8em;
+}
+.button {
+    font-weight: bolder;
+    float: right;
+    background-color:#F9FCFF ;
+    border-style:  solid;
+    border-radius: 0.3em;
+    border-color: lightgrey;
+    border-width:thin;
+    padding: 0.5em 1.5em;
+    position: relative;
+    top: 1.2em;
+}
+.button > img {
+    display: inline;
+}
+.button > p {
+    display: inline; 
+}
+main > img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0.3em;
+}
+main > p {
+    font-size: 2em;
+}
+.border {
+    height: 3em;
+    border: 0.1em solid lightgrey;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 1em;
+    padding: 0 0.1em;
+    vertical-align: middle;
+}
+.border > div > img {
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 0.2em;
+    float: right;
+    position: relative;
+    bottom: 2.5em;
+    right: 13em;
+    margin: 0 0.2em;
+}
+#likes {
+    position: relative;
+    left: 4.5em;
+    bottom: 0.3em;
+    color:darkturquoise;
+    font-size: 1.3em;
+    font-family: Verdana;
+}
+.verticalline {
+    width: 12em;
+    height: 3em;
+    border-right: 0.1em solid lightgrey;
+}
+.font {
+    color: lightgrey;
+    font-size: 0.7em;
+    padding: 0.5em 0;
+}
+.font > span {
+    padding-right: 1em;
+}
+#pass {
+    color:darkturquoise;
+    font-size: 1.3em;
+    font-family: Verdana;
+    position: relative;
+    bottom: 0.3em;
+}
+.time {
+    font-size: 0.9em;
+    color: lightgrey;    
+}
+.time > p > a {
+    text-decoration: none;
+    color: darkturquoise;
+}
+.time > p > a:hover {
+    text-decoration: underline;
+}
+.icons > img {
+    padding-right: 4em;
+    height: 1em;
+    width: 1em;
+}
+.icons > span {
+    position: relative;
+    right: 4.2em;
+    bottom: 0.2em;
+    font-size: 0.8em;
+    color: lightgrey;
+}
+h1 > a {
+    text-decoration: none;
+    color: black;
+}
+h1 > a:hover {
+    color: mediumaquamarine;
+    text-decoration: underline;
+}
+main > p > a {
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+main > p > a:hover {
+    text-decoration: underline;
+}
+.button:hover {
+    background-color:aliceblue;
+    cursor: pointer;
+}
+.font > span:first-child:hover {
+    color:darkturquoise;
+    cursor: pointer;
+}
+.font > span:last-child:hover {
+    color:darkturquoise;
+    cursor: pointer;
+}
+.verticalline:hover {
+    cursor: pointer;
+}
+.border > div > img:hover {
+    cursor: pointer;
+}
+.icons:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
